@@ -10,6 +10,12 @@ namespace Shape
     {
         int VerticesCount;
         string Name;
+
+        protected Shape()
+        {
+
+        }
+
         public abstract double GetSurfaceArea();
         public string GetName()
         {
@@ -28,5 +34,6 @@ namespace Shape
         {
             this.VerticesCount = VerticesCount;
         }
+
     }
 }
