@@ -39,7 +39,7 @@ namespace Shape
         public double GetB()
         {
             return this.b;
-        }
+             }
         public double GetC()
         {
             return this.c;
